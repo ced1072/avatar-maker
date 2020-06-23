@@ -1,0 +1,45 @@
+#container {
+	display: flex;
+	justify-content: space-evenly;
+}
+.row {
+	display: flex;
+}
+
+.p {
+	height: 14px;
+	width: 14px;
+}
+.eyeball {
+	background-color: white;
+}
+.border {
+	background-color: black;
+}
+
+.skin {
+	background-color: #ccb28d;
+}
+.bg {
+	background-color: #b3c6e3;
+}
+
+.hair {
+	background-color: chocolate;
+}
+
+.shirt {
+	background-color: palevioletred;
+}
+
+div[id$='-area-test'] {
+	width: 30vw;
+	border: 2px solid palevioletred;
+	text-align: center;
+	padding: 1em;
+}
+
+.explanation {
+	color: gray;
+	opacity: .5;
+}
